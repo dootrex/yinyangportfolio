@@ -16,7 +16,7 @@ export default function AppRouter() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<PageHome />} />
+            <Route path="/yinyangportfolio" element={<PageHome />} />
             <Route path="projects" element={<PageProjects />} />
             <Route path="stocky" element={<PageStocky />} />
             <Route path="emaily" element={<PageEmaily />} />
