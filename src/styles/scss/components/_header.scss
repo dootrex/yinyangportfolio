@@ -1,0 +1,150 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+//burger stuff
+header {
+  #nav-icon {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    @include mq($tablet) {
+      display: none;
+    }
+  }
+
+  #nav-icon span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: $redishColor;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+
+  #nav-icon span:nth-child(1) {
+    top: 0px;
+  }
+
+  #nav-icon span:nth-child(2) {
+    top: 18px;
+  }
+
+  #nav-icon span:nth-child(3) {
+    top: 36px;
+  }
+
+  #nav-icon.open span:nth-child(1) {
+    top: 18px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+
+  #nav-icon.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+  }
+
+  #nav-icon.open span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 10vh;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+  }
+  .title {
+    height: 100%;
+    h1 {
+      margin-left: 25%;
+    }
+    h1:hover {
+      cursor: pointer;
+    }
+  }
+  header {
+    position: relative;
+  }
+  .menu {
+    position: absolute;
+    top: 10vh;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 3;
+    button {
+      border: none;
+      background: none;
+      font-size: large;
+      margin-bottom: 15px;
+      border-bottom: 2px solid black;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}
+.links {
+  width: 50%;
+
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+
+  button {
+    background: none;
+    border: none;
+    a {
+      color: white;
+      border-bottom: 2px solid white;
+      font-size: medium;
+    }
+  }
+  @include mq($tablet) {
+    display: flex;
+  }
+  @include mq($desktop) {
+    width: 30%;
+  }
+}

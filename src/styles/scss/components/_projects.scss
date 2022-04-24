@@ -1,0 +1,80 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.projects {
+  min-height: 90vh;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  @include mq($desktop) {
+    flex-direction: row;
+  }
+  align-items: center;
+  h1 {
+    color: red;
+    text-align: center;
+  }
+
+  .projectCard {
+    width: 80%;
+    box-shadow: 0 5px 40px rgba(255, 0, 0, 0.2);
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+    @include mq($tablet) {
+      width: 80%;
+      flex-direction: row;
+      img {
+        max-width: 40%;
+        height: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+    @include mq($desktop) {
+      flex-direction: column;
+      width: 30%;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  .projectText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .languages {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      span {
+        margin: 15px;
+      }
+    }
+
+    .codeLinks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      button {
+        box-shadow: 0 5px 10px rgba(255, 0, 0, 0.2);
+        margin: 30px;
+        background: none;
+        border: 1px solid red;
+        width: 60px;
+        border-radius: 10px;
+        h3 {
+          color: red;
+        }
+      }
+      button:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

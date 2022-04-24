@@ -1,0 +1,49 @@
+// Typography Styles
+@use "../utilities/variables" as *;
+
+// body {
+//   font-family: $body-font;
+//   line-height: $line-height;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// nav a,
+// th,
+// caption {
+//   font-family: $heading-font;
+//   font-weight: $heading-font-weight;
+//   color: $text-color-dark;
+// }
+
+// table,
+// footer p {
+//   font-family: $heading-font;
+//   font-weight: 300;
+// }
+h1,
+h2,
+h3,
+h4,
+h5,
+nav a,
+p {
+  color: $redishColor;
+  font-family: "Roboto";
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
