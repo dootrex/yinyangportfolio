@@ -18,7 +18,7 @@ export default function Header() {
             y: 10,
           }}
         >
-          <Link to="yinyangportfolio">
+          <Link to="/">
             <motion.h1 whileHover={{ color: "rgb(235,64,52)" }}>AG</motion.h1>
           </Link>
         </motion.div>

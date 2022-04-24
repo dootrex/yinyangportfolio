@@ -11,21 +11,21 @@ import PageEmaily from "../pages/PageEmaily";
 
 export default function AppRouter() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="wrapper">
         <Header />
         <main>
           <Routes>
-            <Route path="/yinyangportfolio" element={<PageHome />} />
-            <Route path="projects" element={<PageProjects />} />
-            <Route path="stocky" element={<PageStocky />} />
-            <Route path="emaily" element={<PageEmaily />} />
-            <Route path="about" element={<PageAbout />} />
-            <Route path="contact" element={<PageContact />} />
+            <Route path="/" element={<PageHome />} />
+            <Route path="/projects" element={<PageProjects />} />
+            <Route path="/stocky" element={<PageStocky />} />
+            <Route path="/emaily" element={<PageEmaily />} />
+            <Route path="/about" element={<PageAbout />} />
+            <Route path="/contact" element={<PageContact />} />
           </Routes>
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
