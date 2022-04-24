@@ -1,5 +1,5 @@
 import React, { useLocation } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import PageHome from "../pages/PageHome";
 import PageProjects from "../pages/PageProjects";
 import PageAbout from "../pages/PageAbout";
@@ -11,7 +11,7 @@ import PageEmaily from "../pages/PageEmaily";
 
 export default function AppRouter() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="wrapper">
         <Header />
         <main>
@@ -26,6 +26,6 @@ export default function AppRouter() {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
