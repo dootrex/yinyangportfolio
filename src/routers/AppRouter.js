@@ -11,7 +11,7 @@ import PageEmaily from "../pages/PageEmaily";
 
 export default function AppRouter() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="wrapper">
         <Header />
         <main>
@@ -26,6 +26,6 @@ export default function AppRouter() {
         </main>
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
