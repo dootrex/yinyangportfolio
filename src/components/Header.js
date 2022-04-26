@@ -31,8 +31,6 @@ export default function Header() {
           <motion.button
             whileHover={{
               scale: 1.3,
-              textShadow: "0px 0px 8px rgb(255,255,255)",
-              boxShadow: "0px 0px 8px rgb(255,255,255)",
             }}
             transition={{ type: "tween" }}
           >
@@ -41,8 +39,6 @@ export default function Header() {
           <motion.button
             whileHover={{
               scale: 1.3,
-              textShadow: "0px 0px 8px rgb(255,255,255)",
-              boxShadow: "0px 0px 8px rgb(255,255,255)",
             }}
             transition={{ type: "tween" }}
           >
@@ -51,8 +47,6 @@ export default function Header() {
           <motion.button
             whileHover={{
               scale: 1.3,
-              textShadow: "0px 0px 8px rgb(255,255,255)",
-              boxShadow: "0px 0px 8px rgb(255,255,255)",
             }}
             transition={{ type: "tween" }}
           >
