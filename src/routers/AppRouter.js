@@ -1,5 +1,5 @@
 import React, { useLocation } from "react";
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 import PageHome from "../pages/PageHome";
 import PageProjects from "../pages/PageProjects";
 import PageAbout from "../pages/PageAbout";
@@ -11,18 +11,30 @@ import PageEmaily from "../pages/PageEmaily";
 
 export default function AppRouter() {
   return (
-    <HashRouter>
+    <HashRouter basename="yinyangportfolio">
       <div className="wrapper">
         <Header />
         <main>
-          <Routes>
-            <Route path="/" element={<PageHome />} />
-            <Route path="/projects" element={<PageProjects />} />
-            <Route path="/stocky" element={<PageStocky />} />
-            <Route path="/emaily" element={<PageEmaily />} />
-            <Route path="/about" element={<PageAbout />} />
-            <Route path="/contact" element={<PageContact />} />
-          </Routes>
+          <Switch>
+            <Route path="/" exact>
+              <PageHome sort="popular" />
+            </Route>
+            <Route path="/about">
+              <PageAbout />
+            </Route>
+            <Route path="/contact">
+              <PageContact />
+            </Route>
+            <Route path="/projects">
+              <PageProjects />
+            </Route>
+            <Route path="/stocky">
+              <PageStocky />
+            </Route>
+            <Route path="/emaily">
+              <PageEmaily />
+            </Route>
+          </Switch>
         </main>
         <Footer />
       </div>
