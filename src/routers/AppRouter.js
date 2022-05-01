@@ -11,7 +11,7 @@ import PageEmaily from "../pages/PageEmaily";
 
 export default function AppRouter() {
   return (
-    <HashRouter basename="yinyangportfolio">
+    <HashRouter >
       <div className="wrapper">
         <Header />
         <main>
