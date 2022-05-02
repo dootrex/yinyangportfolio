@@ -18,15 +18,17 @@ export default function PageProjects() {
       }}
     >
       <div className="projectCard">
-        <img src={stocky} alt=" Stocky Project Image" />
+        <img src={stocky} alt=" Stocky Project" />
         <div className="projectText">
-          <h1>
-            A stock trading platform build on NodeJS backend with React frontend
-            and MongoDB storage.
-          </h1>
+          <h1>Stocky</h1>
+          <p>
+            A stock trading platform where users is granted 10,000 virtual coins
+            to invest in stocks from multiple exchanges. Can be used as a
+            learning platform for learning how to invest.
+          </p>
           <hr />
           <div className="languages">
-            <span>#react</span> <span>#NodeJS</span>
+            <span>#ReactJS</span> <span>#NodeJS</span> <span>#Bootstrap</span>
             <span>#MongoDB</span> <span>#AlphaVantageAPI</span>
           </div>
           <div className="codeLinks">
@@ -57,16 +59,19 @@ export default function PageProjects() {
         </div>
       </div>
       <div className="projectCard">
-        <img src={emaily} alt=" Emaily Project Image" />
+        <img src={emaily} alt=" Emaily Project" />
         <div className="projectText">
-          <h1>
-            A stock trading platform build on NodeJS backend with React frontend
-            and MongoDB storage.
-          </h1>
-          <hr />
+          <h1>PollKing</h1>
+          <p>
+            A survey app built to send surveys over email or via a link for
+            public voting. The app was creted with a scalable AWS serverless
+            backend with DynamoDB and S3 bucket for storage, Cognito for
+            authorization and ReSTful API Gateway.
+          </p>
+
           <div className="languages">
-            <span>#react</span> <span>#redux</span>
-            <span>#Sengrid</span> <span>#MongoDB</span>
+            <span>#ReactJS</span> <span>#AWS</span> <span>#NodeJS</span>
+            <span>#Sendgrid</span> <span>#DynamoDB</span> <span>#SCSS</span>
           </div>
           <div className="codeLinks">
             <motion.button
@@ -96,16 +101,18 @@ export default function PageProjects() {
         </div>
       </div>
       <div className="projectCard">
-        <img src={movie} alt=" Stocky Project Image" />
+        <img src={movie} alt="Movie Mania Project" />
         <div className="projectText">
-          <h1>
-            A stock trading platform build on NodeJS backend with React frontend
-            and MongoDB storage.
-          </h1>
+          <h1>Movie-Mania</h1>
+          <p>
+            An interface for MovieDB API, where one can search movies or browse
+            for movies based on genre, release date or language. A replica
+            project was also created using Angular for frontend.
+          </p>
           <hr />
           <div className="languages">
-            <span>#react</span> <span>#NodeJS</span>
-            <span>#MongoDB</span> <span>#AlphaVantageAPI</span>
+            <span>#ReactJS</span> <span>#Angular</span> <span>#SCSS</span>
+            <span>#MovieDB</span> <span>#Bootstrap</span> <span>#Redux</span>
           </div>
           <div className="codeLinks">
             <motion.button

@@ -10,8 +10,10 @@
     flex-direction: row;
   }
   align-items: center;
-  h1 {
-    color: red;
+  h1,
+  p {
+    color: $text-color-dark;
+    margin: 10px;
     text-align: center;
   }
 
@@ -52,6 +54,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      flex-wrap: wrap;
       span {
         margin: 15px;
       }
@@ -69,7 +72,7 @@
         width: 60px;
         border-radius: 10px;
         h3 {
-          color: red;
+          color: $text-color-dark;
         }
       }
       button:hover {
