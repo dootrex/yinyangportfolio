@@ -1,6 +1,7 @@
 import React from "react";
 import stocky from "../images/stockyImage.png";
 import emaily from "../images/emailyImage.png";
+import movie from "../images/movie-mania.jpg";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -95,7 +96,7 @@ export default function PageProjects() {
         </div>
       </div>
       <div className="projectCard">
-        <img src={stocky} alt=" Stocky Project Image" />
+        <img src={movie} alt=" Stocky Project Image" />
         <div className="projectText">
           <h1>
             A stock trading platform build on NodeJS backend with React frontend

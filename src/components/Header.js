@@ -63,12 +63,14 @@ export default function Header() {
               ease: "easeInOut",
               duration: 0.3,
             }}
-            initial={{ y: "-100vh" }}
+            initial={{ y: "200vh", width: "0%" }}
             animate={{
               y: 0,
+              width: "100%",
             }}
             exit={{
-              y: "-100vh",
+              y: "200vh",
+              width: "0%",
               transition: { ease: "easeInOut", duration: 0.3 },
             }}
           >
@@ -81,7 +83,9 @@ export default function Header() {
               }}
               transition={{ type: "tween" }}
             >
-              <Link to="projects">Projects</Link>
+              <Link to="projects">
+                <h3>Projects</h3>
+              </Link>
             </motion.button>
             <motion.button
               onClick={openNav}
@@ -92,7 +96,9 @@ export default function Header() {
               }}
               transition={{ type: "tween" }}
             >
-              <Link to="about">About</Link>
+              <Link to="about">
+                <h3>About</h3>
+              </Link>
             </motion.button>
             <motion.button
               onClick={openNav}
@@ -103,7 +109,9 @@ export default function Header() {
               }}
               transition={{ type: "tween" }}
             >
-              <Link to="contact">Contact</Link>
+              <Link to="contact">
+                <h3>Contact</h3>
+              </Link>
             </motion.button>
           </motion.div>
         )}

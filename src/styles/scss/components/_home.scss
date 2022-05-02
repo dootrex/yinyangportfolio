@@ -9,6 +9,46 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  .mailLink {
+    a {
+      h3 {
+        color: $text-color-dark;
+      }
+      position: absolute;
+      left: 10px;
+      bottom: 0px;
+      @include mq($desktop) {
+        bottom: 50%;
+      }
+    }
+  }
+  .resume {
+    a {
+      h3 {
+        color: $text-color-dark;
+      }
+
+      position: absolute;
+      right: 10px;
+      bottom: 0px;
+      @include mq($desktop) {
+        bottom: 50%;
+      }
+    }
+  }
+  .iconLinks {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: $text-color-dark;
+      margin: 10px;
+    }
+  }
   .textBlock {
     border: 3px solid black;
     border-bottom: none;
@@ -23,7 +63,10 @@
     .text {
       padding: 50px;
       p {
-        max-width: 50%;
+        max-width: 100%;
+        @include mq($desktop) {
+          max-width: 50%;
+        }
       }
     }
   }
