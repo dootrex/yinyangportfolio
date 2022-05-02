@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.be33ec5c.css",
-    "main.js": "/static/js/main.09e2ec02.js",
-    "static/media/stockyImage.png": "/static/media/stockyImage.a625a11a27349074d9d7.png",
+    "main.css": "/static/css/main.947a1846.css",
+    "main.js": "/static/js/main.e564e889.js",
+    "static/media/stockyImage.png": "/static/media/stockyImage.35c8eab82d529b3cfb97.png",
     "static/media/emailyImage.png": "/static/media/emailyImage.514c25ad819c971b31ba.png",
+    "static/media/movie-mania.jpg": "/static/media/movie-mania.bdc834526ddb1aad31a9.jpg",
+    "static/media/resume.pdf": "/static/media/resume.afb8a5c66218df9b8ae8.pdf",
     "static/media/peace-avatar.png": "/static/media/peace-avatar.efcd02c6fec20319db5b.png",
     "static/media/top-half.png": "/static/media/top-half.8eb000256bbadaf95180.png",
     "static/media/full-body.png": "/static/media/full-body.1a0a64d54f0ed6ef1250.png",
     "static/media/yin-yang.png": "/static/media/yin-yang.d45b536ea3fafdce25c9.png",
     "index.html": "/index.html",
-    "main.be33ec5c.css.map": "/static/css/main.be33ec5c.css.map",
-    "main.09e2ec02.js.map": "/static/js/main.09e2ec02.js.map"
+    "main.947a1846.css.map": "/static/css/main.947a1846.css.map",
+    "main.e564e889.js.map": "/static/js/main.e564e889.js.map"
   },
   "entrypoints": [
-    "static/css/main.be33ec5c.css",
-    "static/js/main.09e2ec02.js"
+    "static/css/main.947a1846.css",
+    "static/js/main.e564e889.js"
   ]
 }
