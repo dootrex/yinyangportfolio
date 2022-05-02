@@ -1,5 +1,5 @@
 import React from "react";
-import emaily from "../images/emailyImage.png";
+import emaily from "../images/emaily.png";
 import { motion } from "framer-motion";
 
 export default function PageEmaily() {

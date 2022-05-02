@@ -1,5 +1,5 @@
 import React from "react";
-import stocky from "../images/stockyImage.png";
+import stocky from "../images/stocky.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 

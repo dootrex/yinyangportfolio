@@ -1,7 +1,8 @@
 import React from "react";
-import stocky from "../images/stockyImage.png";
-import emaily from "../images/emailyImage.png";
-import movie from "../images/movie-mania.jpg";
+import stocky from "../images/stocky.png";
+import emaily from "../images/emaily.png";
+import movie from "../images/movie-mania.png";
+import pthree from "../images/pthree.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -17,6 +18,47 @@ export default function PageProjects() {
         ease: "easeOut",
       }}
     >
+      <div className="projectCard">
+        <img src={pthree} alt=" pthree Project" />
+        <div className="projectText">
+          <h1>PThree</h1>
+          <p>
+            A stock trading platform where users is granted 10,000 virtual coins
+            to invest in stocks from multiple exchanges. Can be used as a
+            learning platform for learning how to invest.
+          </p>
+          <hr />
+          <div className="languages">
+            <span>#ReactJS</span> <span>#NodeJS</span> <span>#Bootstrap</span>
+            <span>#MongoDB</span> <span>#AlphaVantageAPI</span>
+          </div>
+          <div className="codeLinks">
+            <motion.button
+              whileHover={{
+                scale: 1.2,
+              }}
+            >
+              <h3>Live</h3>
+            </motion.button>
+            <motion.button
+              whileHover={{
+                scale: 1.2,
+              }}
+            >
+              <h3>Code</h3>
+            </motion.button>
+            <motion.button
+              whileHover={{
+                scale: 1.2,
+              }}
+            >
+              <Link to="/stocky">
+                <h3>Info</h3>
+              </Link>
+            </motion.button>
+          </div>
+        </div>
+      </div>
       <div className="projectCard">
         <img src={stocky} alt=" Stocky Project" />
         <div className="projectText">

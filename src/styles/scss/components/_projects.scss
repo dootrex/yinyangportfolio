@@ -8,6 +8,7 @@
   flex-direction: column;
   @include mq($desktop) {
     flex-direction: row;
+    flex-wrap: wrap;
   }
   align-items: center;
   h1,
