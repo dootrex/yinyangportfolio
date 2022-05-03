@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.04b88281.css",
+    "main.css": "/static/css/main.f82b719b.css",
     "main.js": "/static/js/main.ddb05ec9.js",
     "static/media/movie-mania.png": "/static/media/movie-mania.ab0d0c810c4bf2352132.png",
     "static/media/resume.pdf": "/static/media/resume.caf2383269a122939698.pdf",
@@ -13,11 +13,11 @@
     "static/media/full-body.png": "/static/media/full-body.1a0a64d54f0ed6ef1250.png",
     "static/media/yin-yang.png": "/static/media/yin-yang.d45b536ea3fafdce25c9.png",
     "index.html": "/index.html",
-    "main.04b88281.css.map": "/static/css/main.04b88281.css.map",
+    "main.f82b719b.css.map": "/static/css/main.f82b719b.css.map",
     "main.ddb05ec9.js.map": "/static/js/main.ddb05ec9.js.map"
   },
   "entrypoints": [
-    "static/css/main.04b88281.css",
+    "static/css/main.f82b719b.css",
     "static/js/main.ddb05ec9.js"
   ]
 }
