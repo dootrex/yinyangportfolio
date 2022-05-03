@@ -24,6 +24,7 @@
     padding: 20px;
     margin-right: 20px;
     box-shadow: 0 5px 40px rgba(255, 0, 0, 0.2);
+    background-color: $textColor;
     @include mq($tablet) {
       max-width: 800px;
     }

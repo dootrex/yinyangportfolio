@@ -19,7 +19,7 @@ export default function Header() {
           }}
         >
           <Link to="/">
-            <motion.h1 whileHover={{ color: "rgb(235,64,52)" }}>AG</motion.h1>
+            <motion.h1 whileHover={{ color: "rgb(3, 227, 252)" }}>AG</motion.h1>
           </Link>
         </motion.div>
         <div id="nav-icon" onClick={openNav} className={open ? "open" : ""}>
