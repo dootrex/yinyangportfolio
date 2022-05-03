@@ -6,6 +6,7 @@
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
+
   @include mq($desktop) {
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,12 +21,14 @@
 
   .projectCard {
     width: 80%;
+
     box-shadow: 0 5px 40px rgba(255, 0, 0, 0.2);
     margin: 30px auto;
     display: flex;
     flex-direction: column;
     img {
       max-width: 100%;
+
       object-fit: cover;
     }
     @include mq($tablet) {
