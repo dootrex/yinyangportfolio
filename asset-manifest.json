@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.93553e8d.css",
-    "main.js": "/static/js/main.c78a05d2.js",
-    "static/media/stockyImage.png": "/static/media/stockyImage.35c8eab82d529b3cfb97.png",
-    "static/media/emailyImage.png": "/static/media/emailyImage.514c25ad819c971b31ba.png",
-    "static/media/movie-mania.jpg": "/static/media/movie-mania.bdc834526ddb1aad31a9.jpg",
-    "static/media/resume.pdf": "/static/media/resume.d7f60051816662cadf9c.pdf",
+    "main.css": "/static/css/main.04b88281.css",
+    "main.js": "/static/js/main.a1155861.js",
+    "static/media/movie-mania.png": "/static/media/movie-mania.ab0d0c810c4bf2352132.png",
+    "static/media/resume.pdf": "/static/media/resume.caf2383269a122939698.pdf",
+    "static/media/pthree.png": "/static/media/pthree.a5cceb329182c517b8d4.png",
+    "static/media/stocky.png": "/static/media/stocky.5baebb613e20e44b8da7.png",
+    "static/media/emaily.png": "/static/media/emaily.eda229c10e8f61eb7c36.png",
     "static/media/peace-avatar.png": "/static/media/peace-avatar.efcd02c6fec20319db5b.png",
+    "static/media/quickrez.png": "/static/media/quickrez.3c29eea96f9622ee0513.png",
     "static/media/top-half.png": "/static/media/top-half.8eb000256bbadaf95180.png",
     "static/media/full-body.png": "/static/media/full-body.1a0a64d54f0ed6ef1250.png",
     "static/media/yin-yang.png": "/static/media/yin-yang.d45b536ea3fafdce25c9.png",
     "index.html": "/index.html",
-    "main.93553e8d.css.map": "/static/css/main.93553e8d.css.map",
-    "main.c78a05d2.js.map": "/static/js/main.c78a05d2.js.map"
+    "main.04b88281.css.map": "/static/css/main.04b88281.css.map",
+    "main.a1155861.js.map": "/static/js/main.a1155861.js.map"
   },
   "entrypoints": [
-    "static/css/main.93553e8d.css",
-    "static/js/main.c78a05d2.js"
+    "static/css/main.04b88281.css",
+    "static/js/main.a1155861.js"
   ]
 }
