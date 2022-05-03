@@ -78,13 +78,16 @@ export default function PageProjects() {
             <span>#MongoDB</span> <span>#AlphaVantageAPI</span>
           </div>
           <div className="codeLinks">
-            {/* <motion.button
-              whileHover={{
-                scale: 1.2,
-              }}
-            >
-              <h3>Live</h3>
-            </motion.button> */}
+            <a href="https://infinite-bayou-69373.herokuapp.com/">
+              <motion.button
+                whileHover={{
+                  scale: 1.2,
+                }}
+              >
+                <h3>Live</h3>
+              </motion.button>
+            </a>
+
             <a href="https://github.com/dootrex/Stock-Portfolio">
               <motion.button
                 whileHover={{
@@ -122,13 +125,16 @@ export default function PageProjects() {
             <span>#Sendgrid</span> <span>#DynamoDB</span> <span>#SCSS</span>
           </div>
           <div className="codeLinks">
-            {/* <motion.button
-              whileHover={{
-                scale: 1.2,
-              }}
-            >
-              <h3>Live</h3>
-            </motion.button> */}
+            <a href="https://radiant-headland-71325.herokuapp.com/">
+              <motion.button
+                whileHover={{
+                  scale: 1.2,
+                }}
+              >
+                <h3>Live</h3>
+              </motion.button>
+            </a>
+
             <motion.button
               whileHover={{
                 scale: 1.2,
@@ -165,13 +171,16 @@ export default function PageProjects() {
             <span>#MovieDB</span> <span>#Bootstrap</span> <span>#Redux</span>
           </div>
           <div className="codeLinks">
-            <motion.button
-              whileHover={{
-                scale: 1.2,
-              }}
-            >
-              <h3>Live</h3>
-            </motion.button>
+            <a href="https://dootrex.github.io/movie-mania/#/">
+              <motion.button
+                whileHover={{
+                  scale: 1.2,
+                }}
+              >
+                <h3>Live</h3>
+              </motion.button>
+            </a>
+
             <a href="https://github.com/dootrex/movie-mania">
               <motion.button
                 whileHover={{
